@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="xbmc.screenshots.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="ui"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Suntec.xbmcsanitytest.Fullflow">
+        <methods>
+          <include name="xbmc_ContextPageSetup_SetContext_button_click"/>
+          <include name="xbmc_ContextPageSetup_Releaselist_Selection"/>
+          <include name="xbmc_ContextPageSetup_Department_selection"/>
+          <include name="xbmc_enter_Login_Credentials_and_click_login_button"/>
+          <include name="xbmc_ContextPageSetup_Fetch_Release_button_click"/>
+          <include name="xbmc_ContextPageSetup_PMSlist_Selection"/>
+          <include name="xbmc_bpdesignerpage_assetname_check"/>
+          <include name="close_Browser"/>
+          <include name="xbmc_assetpage_Assetsearch"/>
+          <include name="xbmc_ContextPageSetup_Module_Selection"/>
+          <include name="xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting"/>
+          <include name="xbmc_bpdesignerpage_designPallet_cleanup"/>
+          <include name="xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Suntec.xbmcsanitytest.Fullflow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

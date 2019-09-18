@@ -1,0 +1,12 @@
+xbmc/screenshots/TakeScreenShots.class
+xbmc/pageobjectslManager/PageobjectsManager.class
+xbmc/pageobjects/XBMC_Loginpage.class
+xbmc/pageobjects/XBMC_Adminconsolepage.class
+xbmc/configProperties/ConfigProperties.class
+xbmc/pageobjects/XBMC_Homepage.class
+xbmc/pageobjects/XBMC_Contextpage.class
+xbmc/pageobjects/XBMC_Assetspage.class
+xbmc/nificommand_executor/NIFICommandExector.class
+xbmc/codegenAPItest/XBMC_Codegenapi.class
+Suntec/xbmcsanitytest/Maintest.class
+xbmc/pageobjects/XBMC_BPDesignerpage.class

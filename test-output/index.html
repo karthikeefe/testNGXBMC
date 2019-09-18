@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\karthikeyans\Java-code\xelerete_new_0.1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods, 1 failed,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable">xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.FileInputChannelIntegration" hash-for-method="open_XBMCURL">open_XBMCURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="open_XBMCURL">open_XBMCURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_ContextPageSetup_Department_selection">xbmc_ContextPageSetup_Department_selection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_ContextPageSetup_Fetch_Release_button_click">xbmc_ContextPageSetup_Fetch_Release_button_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_ContextPageSetup_Module_Selection">xbmc_ContextPageSetup_Module_Selection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_ContextPageSetup_PMSlist_Selection">xbmc_ContextPageSetup_PMSlist_Selection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_ContextPageSetup_Releaselist_Selection">xbmc_ContextPageSetup_Releaselist_Selection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_ContextPageSetup_SetContext_button_click">xbmc_ContextPageSetup_SetContext_button_click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_assetpage_Assetsearch">xbmc_assetpage_Assetsearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_assetname_check">xbmc_bpdesignerpage_assetname_check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_add_processVariable_setting">xbmc_bpdesignerpage_configurationBP_add_processVariable_setting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable">xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable">xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable">xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable">xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting">xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_designPallet_cleanup">xbmc_bpdesignerpage_designPallet_cleanup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings">xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_invokeBSoperator_business_settings">xbmc_bpdesignerpage_invokeBSoperator_business_settings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_invokeBSoperator_draganddrop">xbmc_bpdesignerpage_invokeBSoperator_draganddrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting">xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_startoperator_bussinessSettings">xbmc_bpdesignerpage_startoperator_bussinessSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_startoperator_draganddrop">xbmc_bpdesignerpage_startoperator_draganddrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save">xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suntec.xbmcsanitytest.Fullflow" hash-for-method="xbmc_enter_Login_Credentials_and_click_login_button">xbmc_enter_Login_Credentials_and_click_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Suntec.xbmcsanitytest.Fullflow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable</span>
+                  <div class="stack-trace">java.lang.AssertionError: xbmc_bpdesignerpage_configurationBP_check_empty_name_processVariable 
+	at Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable(Fullflow.java:409)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suntec.xbmcsanitytest.FileInputChannelIntegration</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="open_XBMCURL">
+                  </a> <!-- open_XBMCURL -->
+                  <span class="method-name">open_XBMCURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suntec.xbmcsanitytest.Fullflow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="open_XBMCURL">
+                  </a> <!-- open_XBMCURL -->
+                  <span class="method-name">open_XBMCURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_ContextPageSetup_Department_selection">
+                  </a> <!-- xbmc_ContextPageSetup_Department_selection -->
+                  <span class="method-name">xbmc_ContextPageSetup_Department_selection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_ContextPageSetup_Fetch_Release_button_click">
+                  </a> <!-- xbmc_ContextPageSetup_Fetch_Release_button_click -->
+                  <span class="method-name">xbmc_ContextPageSetup_Fetch_Release_button_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_ContextPageSetup_Module_Selection">
+                  </a> <!-- xbmc_ContextPageSetup_Module_Selection -->
+                  <span class="method-name">xbmc_ContextPageSetup_Module_Selection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_ContextPageSetup_PMSlist_Selection">
+                  </a> <!-- xbmc_ContextPageSetup_PMSlist_Selection -->
+                  <span class="method-name">xbmc_ContextPageSetup_PMSlist_Selection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_ContextPageSetup_Releaselist_Selection">
+                  </a> <!-- xbmc_ContextPageSetup_Releaselist_Selection -->
+                  <span class="method-name">xbmc_ContextPageSetup_Releaselist_Selection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_ContextPageSetup_SetContext_button_click">
+                  </a> <!-- xbmc_ContextPageSetup_SetContext_button_click -->
+                  <span class="method-name">xbmc_ContextPageSetup_SetContext_button_click</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_assetpage_Assetsearch">
+                  </a> <!-- xbmc_assetpage_Assetsearch -->
+                  <span class="method-name">xbmc_assetpage_Assetsearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_assetname_check">
+                  </a> <!-- xbmc_bpdesignerpage_assetname_check -->
+                  <span class="method-name">xbmc_bpdesignerpage_assetname_check</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_add_processVariable_setting">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_add_processVariable_setting -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_add_processVariable_setting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting">
+                  </a> <!-- xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting -->
+                  <span class="method-name">xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_designPallet_cleanup">
+                  </a> <!-- xbmc_bpdesignerpage_designPallet_cleanup -->
+                  <span class="method-name">xbmc_bpdesignerpage_designPallet_cleanup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings">
+                  </a> <!-- xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings -->
+                  <span class="method-name">xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_invokeBSoperator_business_settings">
+                  </a> <!-- xbmc_bpdesignerpage_invokeBSoperator_business_settings -->
+                  <span class="method-name">xbmc_bpdesignerpage_invokeBSoperator_business_settings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_invokeBSoperator_draganddrop">
+                  </a> <!-- xbmc_bpdesignerpage_invokeBSoperator_draganddrop -->
+                  <span class="method-name">xbmc_bpdesignerpage_invokeBSoperator_draganddrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting">
+                  </a> <!-- xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting -->
+                  <span class="method-name">xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_startoperator_bussinessSettings">
+                  </a> <!-- xbmc_bpdesignerpage_startoperator_bussinessSettings -->
+                  <span class="method-name">xbmc_bpdesignerpage_startoperator_bussinessSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_startoperator_draganddrop">
+                  </a> <!-- xbmc_bpdesignerpage_startoperator_draganddrop -->
+                  <span class="method-name">xbmc_bpdesignerpage_startoperator_draganddrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save">
+                  </a> <!-- xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save -->
+                  <span class="method-name">xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="xbmc_enter_Login_Credentials_and_click_login_button">
+                  </a> <!-- xbmc_enter_Login_Credentials_and_click_login_button -->
+                  <span class="method-name">xbmc_enter_Login_Credentials_and_click_login_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\karthikeyans\Java-code\xelerete_new_0.1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;xbmc.screenshots.ListenerTest&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;ui&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Suntec.xbmcsanitytest.Fullflow&quot;/&gt;
+      &lt;class name=&quot;Suntec.xbmcsanitytest.FileInputChannelIntegration&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">ui</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">open_XBMCURL</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_ContextPageSetup_Department_selection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_ContextPageSetup_Fetch_Release_button_click</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_ContextPageSetup_Module_Selection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_ContextPageSetup_PMSlist_Selection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_ContextPageSetup_Releaselist_Selection</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_ContextPageSetup_SetContext_button_click</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_assetpage_Assetsearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_assetname_check</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_add_processVariable_setting</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_designPallet_cleanup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_invokeBSoperator_business_settings</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_invokeBSoperator_draganddrop</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_startoperator_bussinessSettings</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_startoperator_draganddrop</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">xbmc_enter_Login_Credentials_and_click_login_button</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'xbmc_enter_Login_Credentials_and_click_login_button')
+data.setCell(0, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(0, 3, 11014);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'xbmc_bpdesignerpage_startoperator_draganddrop')
+data.setCell(1, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(1, 3, 9211);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'xbmc_bpdesignerpage_configurationBP_add_processVariable_setting')
+data.setCell(2, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(2, 3, 8579);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'xbmc_assetpage_Assetsearch')
+data.setCell(3, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(3, 3, 7919);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'xbmc_bpdesignerpage_invokeBSoperator_draganddrop')
+data.setCell(4, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(4, 3, 6671);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'open_XBMCURL')
+data.setCell(5, 2, 'Suntec.xbmcsanitytest.FileInputChannelIntegration')
+data.setCell(5, 3, 4218);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable')
+data.setCell(6, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(6, 3, 3611);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable')
+data.setCell(7, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(7, 3, 2841);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable')
+data.setCell(8, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(8, 3, 2705);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable')
+data.setCell(9, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(9, 3, 2638);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable')
+data.setCell(10, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(10, 3, 2573);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings')
+data.setCell(11, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(11, 3, 1912);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'open_XBMCURL')
+data.setCell(12, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(12, 3, 1134);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting')
+data.setCell(13, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(13, 3, 864);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save')
+data.setCell(14, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(14, 3, 784);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'xbmc_ContextPageSetup_Department_selection')
+data.setCell(15, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(15, 3, 601);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'xbmc_bpdesignerpage_invokeBSoperator_business_settings')
+data.setCell(16, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(16, 3, 526);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'xbmc_ContextPageSetup_PMSlist_Selection')
+data.setCell(17, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(17, 3, 437);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'xbmc_bpdesignerpage_designPallet_cleanup')
+data.setCell(18, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(18, 3, 431);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting')
+data.setCell(19, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(19, 3, 383);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'xbmc_ContextPageSetup_Releaselist_Selection')
+data.setCell(20, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(20, 3, 351);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'xbmc_ContextPageSetup_Module_Selection')
+data.setCell(21, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(21, 3, 318);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'xbmc_bpdesignerpage_startoperator_bussinessSettings')
+data.setCell(22, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(22, 3, 232);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'xbmc_bpdesignerpage_assetname_check')
+data.setCell(23, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(23, 3, 187);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'xbmc_ContextPageSetup_SetContext_button_click')
+data.setCell(24, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(24, 3, 186);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'xbmc_ContextPageSetup_Fetch_Release_button_click')
+data.setCell(25, 2, 'Suntec.xbmcsanitytest.Fullflow')
+data.setCell(25, 3, 149);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">57 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Suntec.xbmcsanitytest.Fullflow</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">xbmc_BPdesignerpage_BPflowsave</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_join2operator_draganddrop</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_DMExclusiveoperator_setting</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_BPsession_page_validation</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_end2operator_settings</span>
+                <br/>
+                <span class="ignored-method-name">check_whether_user_can_start_ActivestateBPflow_by_clicking_Startbutton</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_Join_and_End1_smartConnector</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_invokeBS_and_DMExclusive_normalConnector</span>
+                <br/>
+                <span class="ignored-method-name">check_wheather_assetname_sessionid_staus_is_available_correctly_in_BP_session_dashboard</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_stop_bpflow</span>
+                <br/>
+                <span class="ignored-method-name">to_check_only_one_flow_is_running_for_asset</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_DMInclusiveoperator_settings</span>
+                <br/>
+                <span class="ignored-method-name">check_NOrecordfound_displayed_while_search_wrong_SessionID</span>
+                <br/>
+                <span class="ignored-method-name">check_whether_Norecordsfound_is_displayed_in_the_BPAsset_table_when_user_searched_status_is_not_prestent_in_assettable</span>
+                <br/>
+                <span class="ignored-method-name">to_check_whether_BPTable_have_Assetlist</span>
+                <br/>
+                <span class="ignored-method-name">check_NOrecordfound_displayed_while_search_wrong_Startdate</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_JoinEnd1_smartConnector_settings</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_Join_and_DMInclusive_normalConnector</span>
+                <br/>
+                <span class="ignored-method-name">check_able_to_search_sessions_by_Success_eventcount</span>
+                <br/>
+                <span class="ignored-method-name">check_paginator_arrows_are_enabled_based_on_pages</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_end1operator_settings</span>
+                <br/>
+                <span class="ignored-method-name">check_NOrecordfound_displayed_while_search_wrong_Status</span>
+                <br/>
+                <span class="ignored-method-name">check_NOrecordfound_displayed_while_search_wrong_successevent</span>
+                <br/>
+                <span class="ignored-method-name">to_check_homeicon_sunteclogo_paginationicon_inadminconsole_UI</span>
+                <br/>
+                <span class="ignored-method-name">back_to_adminconsole_home_page</span>
+                <br/>
+                <span class="ignored-method-name">check_paginator_is_available_with_left_and_right_arrow</span>
+                <br/>
+                <span class="ignored-method-name">to_check_whether_BPlist_table_is_available_in_UI</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_invokeBSoperator_OPmapping_settings</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_BPdesignerpage_BPflow_validation_after_save</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_start_and_invokeBSnormalConnector</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_join2operator_settings</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_end2operator_draganddrop</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_Join_and_End2_normalConnector</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_joinoperator_draganddrop</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_invokeBSoperator_properties_settings</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_DMExclusive_and_Join_2normalConnector</span>
+                <br/>
+                <span class="ignored-method-name">check_whether_the_status_is_changed_from_Inactive_to_Active</span>
+                <br/>
+                <span class="ignored-method-name">check_NOrecordfound_displayed_while_search_wrong_Enddate</span>
+                <br/>
+                <span class="ignored-method-name">check_able_to_search_sessions_by_end_date</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_DMInclusive_and_Join_2normalConnector</span>
+                <br/>
+                <span class="ignored-method-name">check_whether_Norecordsfound_is_displayed_in_the_BPAsset_table_when_user_searched_bpasset_that_is_not_prestent_in_assettable</span>
+                <br/>
+                <span class="ignored-method-name">check_wheather_assetname_sessionID_is_same_as_in_BP_session_traceability</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_DMInclusiveoperator_draganddrop</span>
+                <br/>
+                <span class="ignored-method-name">check_able_to_search_Sessions_using_Sessionstatus</span>
+                <br/>
+                <span class="ignored-method-name">To_check_disablestopbutton_and_enabled_resumebutton_and_resume_BPSession_for_reprocess_the_failed_data</span>
+                <br/>
+                <span class="ignored-method-name">open_adminconsole_URL</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_end1operator_draganddrop</span>
+                <br/>
+                <span class="ignored-method-name">To_check_GUI_of_SessionDetail_page</span>
+                <br/>
+                <span class="ignored-method-name">to_verify_BPname_Filter_by_valuable_assetname</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_pass_inputdata_through_assetAPI</span>
+                <br/>
+                <span class="ignored-method-name">check_able_to_search_Sessions_using_SessionID</span>
+                <br/>
+                <span class="ignored-method-name">check_able_to_search_sessions_by_start_date</span>
+                <br/>
+                <span class="ignored-method-name">check_whether_Status_is_inactive</span>
+                <br/>
+                <span class="ignored-method-name">move_to_bpsession_page_by_click_BPsessionbutton</span>
+                <br/>
+                <span class="ignored-method-name">Start_inactive_BPasset_by_click_play_button_in_adminconsole</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_joinoperator_settings</span>
+                <br/>
+                <span class="ignored-method-name">xbmc_bpdesignerpage_DMExclusiveoperator_draganddrop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suntec.xbmcsanitytest.Fullflow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">open_XBMCURL</span>
+                <span class="method-start">3077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_enter_Login_Credentials_and_click_login_button</span>
+                <span class="method-start">4215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_ContextPageSetup_Department_selection</span>
+                <span class="method-start">15251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_ContextPageSetup_Module_Selection</span>
+                <span class="method-start">15854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_ContextPageSetup_Fetch_Release_button_click</span>
+                <span class="method-start">16175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_ContextPageSetup_Releaselist_Selection</span>
+                <span class="method-start">16326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_ContextPageSetup_PMSlist_Selection</span>
+                <span class="method-start">16679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_ContextPageSetup_SetContext_button_click</span>
+                <span class="method-start">17118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_assetpage_Assetsearch</span>
+                <span class="method-start">17306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_assetname_check</span>
+                <span class="method-start">25227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_designPallet_cleanup</span>
+                <span class="method-start">25415 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting</span>
+                <span class="method-start">25848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting</span>
+                <span class="method-start">26233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable</span>
+                <span class="method-start">27099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable</span>
+                <span class="method-start">30712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable</span>
+                <span class="method-start">33555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable</span>
+                <span class="method-start">36262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable</span>
+                <span class="method-start">39301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_configurationBP_add_processVariable_setting</span>
+                <span class="method-start">41877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_startoperator_draganddrop</span>
+                <span class="method-start">50458 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_startoperator_bussinessSettings</span>
+                <span class="method-start">59670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save</span>
+                <span class="method-start">59903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_invokeBSoperator_draganddrop</span>
+                <span class="method-start">60688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_invokeBSoperator_business_settings</span>
+                <span class="method-start">67361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings</span>
+                <span class="method-start">67888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">close_Browser</span>
+                <span class="method-start">69802 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suntec.xbmcsanitytest.FileInputChannelIntegration</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">openBrowser(Chrome)</span>
+                <span class="method-start">70476 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">open_XBMCURL</span>
+                <span class="method-start">70502 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

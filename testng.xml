@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!-- Suite -->
+	<listeners>
+		<listener class-name="xbmc.screenshots.ListenerTest" />
+	</listeners>
+	<test name="Test">
+		<parameter name="browser" value="Chrome" />
+		<groups>
+			<run>
+				<include name="ui" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Suntec.xbmcsanitytest.Maintest">
+			</class>
+		</classes>
+	</test>
+	<!-- Test -->
+</suite>

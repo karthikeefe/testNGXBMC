@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="57" total="83" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="74737" started-at="2019-05-23T12:11:49Z" finished-at="2019-05-23T12:13:04Z">
+    <groups>
+      <group name="ui">
+        <method signature="FileInputChannelIntegration.open_XBMCURL()[pri:30, instance:Suntec.xbmcsanitytest.FileInputChannelIntegration@4524411f]" name="open_XBMCURL" class="Suntec.xbmcsanitytest.FileInputChannelIntegration"/>
+        <method signature="Fullflow.open_XBMCURL()[pri:1, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="open_XBMCURL" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_enter_Login_Credentials_and_click_login_button()[pri:2, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_enter_Login_Credentials_and_click_login_button" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_ContextPageSetup_Department_selection()[pri:3, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Department_selection" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_ContextPageSetup_Module_Selection()[pri:4, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Module_Selection" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_ContextPageSetup_Fetch_Release_button_click()[pri:5, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Fetch_Release_button_click" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_ContextPageSetup_Releaselist_Selection()[pri:6, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Releaselist_Selection" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_ContextPageSetup_PMSlist_Selection()[pri:7, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_PMSlist_Selection" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_ContextPageSetup_SetContext_button_click()[pri:8, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_SetContext_button_click" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_assetpage_Assetsearch()[pri:9, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_assetpage_Assetsearch" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_assetname_check()[pri:10, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_assetname_check" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_designPallet_cleanup()[pri:11, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_designPallet_cleanup" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting()[pri:13, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_add_processVariable_setting()[pri:19, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_add_processVariable_setting" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable()[pri:15, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable()[pri:18, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable()[pri:16, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable()[pri:14, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable()[pri:17, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting()[pri:12, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_startoperator_draganddrop()[pri:20, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_startoperator_draganddrop" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_invokeBSoperator_draganddrop()[pri:23, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_invokeBSoperator_draganddrop" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_invokeBSoperator_business_settings()[pri:24, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_invokeBSoperator_business_settings" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings()[pri:25, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_startoperator_bussinessSettings()[pri:21, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_startoperator_bussinessSettings" class="Suntec.xbmcsanitytest.Fullflow"/>
+        <method signature="Fullflow.xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save()[pri:22, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save" class="Suntec.xbmcsanitytest.Fullflow"/>
+      </group> <!-- ui -->
+    </groups>
+    <test name="Test" duration-ms="74737" started-at="2019-05-23T12:11:49Z" finished-at="2019-05-23T12:13:04Z">
+      <class name="Suntec.xbmcsanitytest.Fullflow">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="openBrowser" is-config="true" duration-ms="3069" started-at="2019-05-23T12:11:49Z" finished-at="2019-05-23T12:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="open_XBMCURL()[pri:1, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="open_XBMCURL" duration-ms="1134" started-at="2019-05-23T12:11:53Z" finished-at="2019-05-23T12:11:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_XBMCURL -->
+        <test-method status="PASS" signature="xbmc_enter_Login_Credentials_and_click_login_button()[pri:2, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_enter_Login_Credentials_and_click_login_button" duration-ms="11014" started-at="2019-05-23T12:11:54Z" finished-at="2019-05-23T12:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_enter_Login_Credentials_and_click_login_button -->
+        <test-method status="PASS" signature="xbmc_ContextPageSetup_Department_selection()[pri:3, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Department_selection" duration-ms="601" started-at="2019-05-23T12:12:05Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_enter_Login_Credentials_and_click_login_button" finished-at="2019-05-23T12:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_ContextPageSetup_Department_selection -->
+        <test-method status="PASS" signature="xbmc_ContextPageSetup_Module_Selection()[pri:4, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Module_Selection" duration-ms="318" started-at="2019-05-23T12:12:05Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_ContextPageSetup_Department_selection" finished-at="2019-05-23T12:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_ContextPageSetup_Module_Selection -->
+        <test-method status="PASS" signature="xbmc_ContextPageSetup_Fetch_Release_button_click()[pri:5, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Fetch_Release_button_click" duration-ms="149" started-at="2019-05-23T12:12:06Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_ContextPageSetup_Module_Selection" finished-at="2019-05-23T12:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_ContextPageSetup_Fetch_Release_button_click -->
+        <test-method status="PASS" signature="xbmc_ContextPageSetup_Releaselist_Selection()[pri:6, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_Releaselist_Selection" duration-ms="351" started-at="2019-05-23T12:12:06Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_ContextPageSetup_Fetch_Release_button_click" finished-at="2019-05-23T12:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_ContextPageSetup_Releaselist_Selection -->
+        <test-method status="PASS" signature="xbmc_ContextPageSetup_PMSlist_Selection()[pri:7, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_PMSlist_Selection" duration-ms="437" started-at="2019-05-23T12:12:06Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_ContextPageSetup_Releaselist_Selection" finished-at="2019-05-23T12:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_ContextPageSetup_PMSlist_Selection -->
+        <test-method status="PASS" signature="xbmc_ContextPageSetup_SetContext_button_click()[pri:8, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_ContextPageSetup_SetContext_button_click" duration-ms="186" started-at="2019-05-23T12:12:07Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_ContextPageSetup_PMSlist_Selection" finished-at="2019-05-23T12:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_ContextPageSetup_SetContext_button_click -->
+        <test-method status="PASS" signature="xbmc_assetpage_Assetsearch()[pri:9, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_assetpage_Assetsearch" duration-ms="7919" started-at="2019-05-23T12:12:07Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_ContextPageSetup_SetContext_button_click" finished-at="2019-05-23T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_assetpage_Assetsearch -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_assetname_check()[pri:10, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_assetname_check" duration-ms="187" started-at="2019-05-23T12:12:15Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_assetpage_Assetsearch" finished-at="2019-05-23T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_assetname_check -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_designPallet_cleanup()[pri:11, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_designPallet_cleanup" duration-ms="431" started-at="2019-05-23T12:12:15Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_assetname_check" finished-at="2019-05-23T12:12:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_designPallet_cleanup -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting()[pri:12, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting" duration-ms="383" started-at="2019-05-23T12:12:15Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_designPallet_cleanup" finished-at="2019-05-23T12:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_open_configurationBP_clickISprofilablecheckbox_setting -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting()[pri:13, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" duration-ms="864" started-at="2019-05-23T12:12:16Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_designPallet_cleanup" finished-at="2019-05-23T12:12:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable()[pri:14, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable" duration-ms="3611" started-at="2019-05-23T12:12:17Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" finished-at="2019-05-23T12:12:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_check_wrong_defaultNumber_processVariable -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable()[pri:15, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable" duration-ms="2841" started-at="2019-05-23T12:12:20Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" finished-at="2019-05-23T12:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_check_empty_defaultNumber_processvariable -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable()[pri:16, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable" duration-ms="2705" started-at="2019-05-23T12:12:23Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" finished-at="2019-05-23T12:12:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_check_empty_name_as_processVariable -->
+        <test-method status="FAIL" signature="xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable()[pri:17, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable" duration-ms="2638" started-at="2019-05-23T12:12:26Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" finished-at="2019-05-23T12:12:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[xbmc_bpdesignerpage_configurationBP_check_empty_name_processVariable ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: xbmc_bpdesignerpage_configurationBP_check_empty_name_processVariable 
+at org.testng.Assert.fail(Assert.java:96)
+at Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable(Fullflow.java:409)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_check_wrong_name_as_processVariable -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable()[pri:18, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable" duration-ms="2573" started-at="2019-05-23T12:12:29Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" finished-at="2019-05-23T12:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_check_empty_description_processVariable -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_configurationBP_add_processVariable_setting()[pri:19, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_configurationBP_add_processVariable_setting" duration-ms="8579" started-at="2019-05-23T12:12:31Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_configurationBP_delete_oldprocessVariable_setting" finished-at="2019-05-23T12:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_configurationBP_add_processVariable_setting -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_startoperator_draganddrop()[pri:20, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_startoperator_draganddrop" duration-ms="9211" started-at="2019-05-23T12:12:40Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_designPallet_cleanup" finished-at="2019-05-23T12:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_startoperator_draganddrop -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_startoperator_bussinessSettings()[pri:21, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_startoperator_bussinessSettings" duration-ms="232" started-at="2019-05-23T12:12:49Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_startoperator_draganddrop" finished-at="2019-05-23T12:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_startoperator_bussinessSettings -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save()[pri:22, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save" duration-ms="784" started-at="2019-05-23T12:12:49Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_startoperator_draganddrop" finished-at="2019-05-23T12:12:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_startoperator_properties_Settings_and_Save -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_invokeBSoperator_draganddrop()[pri:23, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_invokeBSoperator_draganddrop" duration-ms="6671" started-at="2019-05-23T12:12:50Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_startoperator_draganddrop" finished-at="2019-05-23T12:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_invokeBSoperator_draganddrop -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_invokeBSoperator_business_settings()[pri:24, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_invokeBSoperator_business_settings" duration-ms="526" started-at="2019-05-23T12:12:57Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_invokeBSoperator_draganddrop" finished-at="2019-05-23T12:12:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_invokeBSoperator_business_settings -->
+        <test-method status="PASS" signature="xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings()[pri:25, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings" duration-ms="1912" started-at="2019-05-23T12:12:57Z" depends-on-methods="Suntec.xbmcsanitytest.Fullflow.xbmc_bpdesignerpage_invokeBSoperator_business_settings" finished-at="2019-05-23T12:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xbmc_bpdesignerpage_invokeBSoperator_IPmapping_settings -->
+        <test-method status="PASS" signature="close_Browser()[pri:0, instance:Suntec.xbmcsanitytest.Fullflow@42607a4f]" name="close_Browser" is-config="true" duration-ms="673" started-at="2019-05-23T12:12:59Z" finished-at="2019-05-23T12:13:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- Suntec.xbmcsanitytest.Fullflow -->
+      <class name="Suntec.xbmcsanitytest.FileInputChannelIntegration">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:Suntec.xbmcsanitytest.FileInputChannelIntegration@4524411f]" name="openBrowser" is-config="true" duration-ms="26" started-at="2019-05-23T12:13:00Z" finished-at="2019-05-23T12:13:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="open_XBMCURL()[pri:30, instance:Suntec.xbmcsanitytest.FileInputChannelIntegration@4524411f]" name="open_XBMCURL" duration-ms="4218" started-at="2019-05-23T12:13:00Z" finished-at="2019-05-23T12:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_XBMCURL -->
+      </class> <!-- Suntec.xbmcsanitytest.FileInputChannelIntegration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

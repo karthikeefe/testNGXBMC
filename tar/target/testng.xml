@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">  
+  <parameter name="browser" value="Chrome" />
+    <groups>
+  <run>
+  <include name = "adminconsole" />
+  </run>
+  </groups>
+  
+    <classes>
+      <class name="Suntec.xbmcsanitytest.Maintest" > </class>
+      <!-- methods>
+      <include name="xbmc_open_adminconsole_URL" />
+      <include name="xbmc_move_to_bpsession_page" />
+      </methods >-->  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
